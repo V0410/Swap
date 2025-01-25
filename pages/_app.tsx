@@ -71,7 +71,7 @@ const AppWrapper: FC<AppWrapperProps> = ({ children }) => {
                   `https://${network}.g.alchemy.com/v2/${ALCHEMY_API_KEY}`
                 )
               } else {
-                transportsConfig[chain.id] = http() // Fallback to default HTTP transport
+                transportsConfig[chain.id] = http()
               }
               return transportsConfig
             },
