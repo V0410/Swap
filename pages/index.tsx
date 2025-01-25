@@ -139,8 +139,6 @@ const SwapWidgetPage: NextPage = () => {
             symbol: 'SOL',
             logoURI: 'https://assets.relay.link/icons/currencies/sol.png'
           }}
-          // lockToToken={true}
-          // lockFromToken={true}
           defaultToToken={{
             chainId: 33139,
             address: '0x0000000000000000000000000000000000000000',
@@ -149,16 +147,6 @@ const SwapWidgetPage: NextPage = () => {
             symbol: 'APE',
             logoURI: 'https://assets.relay.link/icons/currencies/ape.png'
           }}
-          // defaultFromToken={{
-          //   chainId: 1,
-          //   address: '0x446c9033e7516d820cc9a2ce2d0b7328b579406f',
-          //   decimals: 8,
-          //   name: 'SOLVE',
-          //   symbol: 'SOLVE',
-          //   logoURI:
-          //     'https://assets.coingecko.com/coins/images/1768/large/Solve.Token_logo_200_200_wiyhout_BG.png?1575869846'
-          // }}
-          // defaultAmount={'5'}
           wallet={wallet}
           multiWalletSupportEnabled={true}
           linkedWallets={linkedWallets}
