@@ -6,5 +6,5 @@ export const chainIdToAlchemyNetworkMap: Record<number, string | undefined> = {
   8453: 'base-mainnet',
   84532: 'base-sepolia',
   42161: 'arb-mainnet',
-  11155111: 'eth-sepolia'
+  11155111: 'eth-sepolia'  
 }

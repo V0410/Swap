@@ -23,11 +23,10 @@ export const WalletFilterProvider: React.FC<{ children: ReactNode }> = ({
   )
 }
 
-// Custom hook to use the context
 export const useWalletFilter = () => {
   const context = useContext(WalletFilterContext)
   if (!context) {
-    throw new Error('useWalletFilter must be used within a WalletFilterContext')
+    throw new Error('useWalletFilter must be used within a WalletFilterContext ')
   }
   return context
 }
