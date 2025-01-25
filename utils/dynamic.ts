@@ -39,12 +39,9 @@ export const extractWalletIcon = (wallet: Wallet) => {
       ? walletBook[wallet.key].brand.spriteId
       : undefined
       
-  let walletIcon = wallet?.connector?.wallet?.icon
 
   if (walletLogoId) {
     return `${dynamicStaticAssetUrl}#${walletLogoId}`
-  } else if (walletIcon) {
-    return walletIcon
   } else {
     return undefined
   }
