@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "name": "relay-sdk-demo",
+  "scripts": {
+    "clean": "rm -rf .next && rm -rf node_modules && npm cache clean --force",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "@dynamic-labs/bitcoin": "^3.3.0",
+    "@dynamic-labs/ethereum": "^3.3.0",
+    "@dynamic-labs/sdk-react-core": "^3.3.0",
+    "@dynamic-labs/solana": "^3.3.0",
+    "@dynamic-labs/utils": "^3.4.2",
+    "@dynamic-labs/wagmi-connector": "^3.3.0",
+    "@radix-ui/colors": "3.0.0",
+    "@reservoir0x/relay-bitcoin-wallet-adapter": "latest",
+    "@reservoir0x/relay-kit-hooks": "latest",
+    "@reservoir0x/relay-kit-ui": "latest",
+    "@reservoir0x/relay-sdk": "latest",
+    "@reservoir0x/relay-solana-wallet-adapter": "latest",
+    "@solana/web3.js": "^1.95.3",
+    "@tanstack/react-query": "^5.20.2",
+    "@types/node": "^22.5.4",
+    "next": "latest",
+    "next-remote-watch": "2.0.0",
+    "next-themes": "0.4.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.3.0",
+    "viem": "2.10.1",
+    "wagmi": "2.10.1"
+  },
+  "devDependencies": {
+    "@dynamic-labs/types": "^3.3.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "5.4.5"
+  }
+}
